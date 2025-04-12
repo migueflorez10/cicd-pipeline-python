@@ -1,5 +1,8 @@
 # app/calculadora.py
-"""Módulo que proporciona funciones básicas de cálculo: suma, resta, multiplicación y división."""
+"""
+Módulo que proporciona funciones básicas de cálculo:
+suma, resta, multiplicación y división.
+"""
 
 
 def sumar(a, b):
@@ -7,23 +10,14 @@ def sumar(a, b):
     return a + b
 
 
-"""Módulo que proporciona funciones básicas de cálculo: suma, resta, multiplicación y división."""
-
-
 def restar(a, b):
     """Devuelve la resta de dos números."""
     return a - b
 
 
-"""Módulo que proporciona funciones básicas de cálculo: suma, resta, multiplicación y división."""
-
-
 def multiplicar(a, b):
     """Devuelve la multiplicacion de dos números."""
     return a * b
-
-
-"""Módulo que proporciona funciones básicas de cálculo: suma, resta, multiplicación y división."""
 
 
 def dividir(a, b):

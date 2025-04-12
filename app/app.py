@@ -1,6 +1,7 @@
 # app/app.py
 """
-Importa los módulos de Flask y las funciones de operaciones básicas definidas en 'calculadora'.
+Importa los módulos de Flask y las funciones de
+operaciones básicas definidas en 'calculadora'.
 """
 from flask import Flask, render_template, request
 from .calculadora import sumar, restar, multiplicar, dividir
@@ -12,7 +13,8 @@ app = Flask(__name__)
 def index():
     """
     Este método gestiona la página principal: procesa formularios
-    POST para realizar operaciones aritméticas, maneja errores y muestra el resultado.
+    POST para realizar operaciones aritméticas, maneja errores
+    y muestra el resultado.
     """
     resultado = None
     if request.method == "POST":
