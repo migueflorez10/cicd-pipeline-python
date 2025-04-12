@@ -9,6 +9,7 @@ from .calculadora import sumar, restar, multiplicar, dividir
 
 app = Flask(__name__)
 
+
 @app.route("/", methods=["GET", "POST"])
 def index():
     """
@@ -45,7 +46,7 @@ def index():
 def health():
     """
     Endpoint para el health check del ALB.
-    Retorna "OK" con estado 200 si la aplicación 
+    Retorna "OK" con estado 200 si la aplicación
     está viva.
     """
     return "OK", 200
